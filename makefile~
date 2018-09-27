@@ -1,0 +1,6 @@
+all: demo.c
+	gcc demo.o
+demo.o: 
+	gcc -c demo.c
+run:
+	./a.out
